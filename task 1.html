@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task 1 - Ying
+        </title>
+
+        <style>
+            body{
+                text-align: center;
+            }
+            h1{
+                color: coral;
+            }
+
+            h2{
+                color: bisque;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1> Interactive Web Page Task </h1>
+            <h2>Ying Liu</h2>
+            
+        </header>
+
+        <main>
+            <p id="text">text text text</p>
+            <input type="button" onclick="changeColor()" value="change color">
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+        
+    </body>
+    <script>
+        function changeColor(){
+            var text = document.getElementById("text");
+            text.style.color = "red";
+        }
+    </script>
+</html>
