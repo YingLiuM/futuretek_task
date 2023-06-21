@@ -20,10 +20,14 @@ function BookCatalog({books}:Props) {
     return (
         <>
             <h1>Book Catalog</h1>
+            <div className = 'book-catalog'>
 
-            {books.map((books) => 
-                <BookCard book ={books}/>
-            )}       
+                {books.map((books) => 
+                    <BookCard 
+                    key={books.id}
+                    book ={books}/>
+                )}    
+            </div>   
         </>
     )
 }

@@ -21,10 +21,12 @@ function BookCard({book}:Props) {
     return (
         <>
             {/* <h1>Book Card</h1> */}
-            <h1>{book.title}</h1>
+            <div className="book-card">
             <h2>{book.author}</h2>
+            {book.isBestSeller && <p>Best Seller</p>}
             <img src={book.coverImageUrl} alt={book.title}/>
-        
+
+            </div>
         </>
     )
 }

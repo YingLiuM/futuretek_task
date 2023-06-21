@@ -1,11 +1,24 @@
-.book-catalog {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  
-  .selected-book {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
-  }
+.book-card {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.book-card.active {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+}
+
+.book-card .best-seller {
+  color: red;
+  font-weight: bold;
+}
