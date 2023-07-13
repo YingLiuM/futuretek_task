@@ -1,0 +1,25 @@
+#display{
+    border: 1px solid;
+    text-align: center;
+    float: left;
+    background-color: lightgray;
+    padding: 30px;
+}
+
+#edit{
+    border: 1px solid ;
+    text-align: left;
+    padding: 30px;
+    float: left;
+    background-color: lightgray;
+}
+
+#right{
+    text-align: center;
+
+}
+
+#save{
+    margin: 20px;
+}
+
